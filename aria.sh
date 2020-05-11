@@ -1,4 +1,4 @@
-export MAX_DOWNLOAD_SPEED=1000
+export MAX_DOWNLOAD_SPEED=0
 export MAX_CONCURRENT_DOWNLOADS=10
 aria2c --enable-rpc --rpc-listen-all=false --rpc-listen-port 6800 \
   --max-connection-per-server=10 --rpc-max-request-size=1024M \
